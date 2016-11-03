@@ -14,3 +14,10 @@ PlatformIO Remote Unit Testing Example
 
 * `PlatformIO Unit Testing <http://docs.platformio.org/en/latest/plus/unit-testing.html>`_
 * `PIO Remote™ <http://docs.platformio.org/en/latest/plus/pio-remote.html>`_
+
+1.  Define `PLATFORMIO_AUTH_TOKEN <http://docs.platformio.org/en/latest/envvars.html#envvar-PLATFORMIO_AUTH_TOKEN>`_
+    environment variable in project settings. See
+    `Travis.CI: Defining Variables in Repository Settings <https://docs.travis-ci.com/user/environment-variables/#Defining-Variables-in-Repository-Settings>`_
+2.  Start `PIO Remote™ Agent <http://docs.platformio.org/en/latest/plus/pio-remote.html#pioremote-agent>`_
+    on a host machine where embedded devices are connected
+3. Push commit to Repository (Trigger Travis.CI).
