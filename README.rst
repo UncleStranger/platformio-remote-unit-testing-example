@@ -28,3 +28,7 @@ PlatformIO Remote Unit Testing Example
 2.  Start `PIO Remote™ Agent <http://docs.platformio.org/en/latest/plus/pio-remote.html#pioremote-agent>`_
     on a host machine where embedded devices are connected
 3. Push commit to Repository (Trigger Travis.CI).
+
+
+.. image:: travis-ci-test-results.png
+    :target: https://travis-ci.org/platformio/platformio-remote-unit-testing-example
