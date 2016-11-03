@@ -15,6 +15,13 @@ PlatformIO Remote Unit Testing Example
 * `PlatformIO Unit Testing <http://docs.platformio.org/en/latest/plus/unit-testing.html>`_
 * `PIO Remote™ <http://docs.platformio.org/en/latest/plus/pio-remote.html>`_
 
+----------
+
+* `.travis.yml <https://github.com/platformio/platformio-remote-unit-testing-example/blob/master/.travis.yml>`_ configuration file
+* `Travis.CI Test Results <https://travis-ci.org/platformio/platformio-remote-unit-testing-example>`_
+
+----------
+
 1.  Define `PLATFORMIO_AUTH_TOKEN <http://docs.platformio.org/en/latest/envvars.html#envvar-PLATFORMIO_AUTH_TOKEN>`_
     environment variable in project settings. See
     `Travis.CI: Defining Variables in Repository Settings <https://docs.travis-ci.com/user/environment-variables/#Defining-Variables-in-Repository-Settings>`_
